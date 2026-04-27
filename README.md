@@ -78,15 +78,15 @@ python src/task1_price_model.py
 python src/task2_storage_pricing.py
 python src/task3_credit_risk.py
 python src/task4_fico_bucketing.py
-##📈 Key Learnings
+📈 Key Learnings
 Time-series analysis for price forecasting
 Financial contract valuation logic
 Machine learning for credit risk prediction
 Risk segmentation using data-driven methods
-##📜 Certificate
+📜 Certificate
 
 The certificate of completion is included in this repository.
 
-##💡 Summary
+💡 Summary
 
 This project demonstrates practical applications of quantitative research in finance, combining data analysis, modeling, and decision-making.
