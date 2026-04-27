@@ -1,33 +1,44 @@
-# JP Morgan Quantitative Research Simulation
+# 📊 JP Morgan Quantitative Research Simulation
 
-## Overview
-Completed a virtual job simulation focused on quantitative research, commodity pricing, and credit risk modeling.
+## 🚀 Overview
+This project is based on the JP Morgan Quantitative Research Virtual Experience, where real-world financial problems were solved using data analysis, modeling, and machine learning.
 
-This project includes 4 key tasks covering real-world financial modeling problems.
-
----
-
-## Tasks
-
-### Task 1: Natural Gas Price Modeling
-- Built a time-series model using trend + seasonality
-- Predicted future gas prices
-
-### Task 2: Storage Contract Pricing
-- Modeled profit/loss of storing natural gas
-- Considered multiple injection/withdrawal dates and storage costs
-
-### Task 3: Credit Risk Modeling
-- Built a logistic regression model to predict Probability of Default (PD)
-- Calculated Expected Loss using recovery rate
-
-### Task 4: FICO Score Bucketing
-- Segmented customers into risk buckets
-- Used quantile-based discretization with default rate analysis
+The project covers commodity pricing, contract valuation, credit risk modeling, and risk segmentation.
 
 ---
 
-## Tech Stack
+## 🧠 Tasks Completed
+
+### 🔹 Task 1: Natural Gas Price Modeling
+- Built a time-series model using trend and seasonality
+- Predicted future gas prices for any given date
+
+---
+
+### 🔹 Task 2: Commodity Storage Contract Pricing
+- Modeled profit/loss from storing natural gas
+- Handled multiple injection and withdrawal dates
+- Included storage constraints and costs
+
+---
+
+### 🔹 Task 3: Credit Risk Analysis
+- Built a Logistic Regression model to estimate Probability of Default (PD)
+- Performed feature engineering using financial ratios:
+  - Debt-to-Income
+  - Payment-to-Income
+- Calculated Expected Loss using recovery rate assumptions
+
+---
+
+### 🔹 Task 4: FICO Score Bucketing
+- Segmented borrowers into risk buckets based on FICO score
+- Used quantile-based discretization
+- Analyzed default probability across buckets
+
+---
+
+## ⚙️ Tech Stack
 - Python
 - Pandas
 - NumPy
@@ -35,14 +46,47 @@ This project includes 4 key tasks covering real-world financial modeling problem
 
 ---
 
-## Key Learnings
-- Time-series modeling
-- Financial contract valuation
-- Machine learning for credit risk
-- Risk segmentation techniques
+## 📂 Project Structure
+
+
+jp-morgan-quant-simulation/
+│
+├── data/
+│ ├── Nat_Gas.csv
+│ └── Loan_Data.csv
+│
+├── src/
+│ ├── task1_price_model.py
+│ ├── task2_storage_pricing.py
+│ ├── task3_credit_risk.py
+│ └── task4_fico_bucketing.py
+│
+├── requirements.txt
+├── README.md
+└── certificate.pdf
+
 
 ---
 
-## How to Run
+## ▶️ How to Run
+
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+Run individual tasks:
+python src/task1_price_model.py
+python src/task2_storage_pricing.py
+python src/task3_credit_risk.py
+python src/task4_fico_bucketing.py
+##📈 Key Learnings
+Time-series analysis for price forecasting
+Financial contract valuation logic
+Machine learning for credit risk prediction
+Risk segmentation using data-driven methods
+##📜 Certificate
+
+The certificate of completion is included in this repository.
+
+##💡 Summary
+
+This project demonstrates practical applications of quantitative research in finance, combining data analysis, modeling, and decision-making.
